@@ -1,6 +1,6 @@
 @echo off
 rem Compiles and starts the Shared Equipment Scheduler (Windows).
-rem Double-click this file, or run it from Command Prompt:  run.bat
+rem Double-click this file, or type  .\run.bat  in PowerShell inside this folder.
 cd /d "%~dp0"
 if not exist out mkdir out
 javac -encoding UTF-8 -d out src\*.java
